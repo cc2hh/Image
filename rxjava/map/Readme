@@ -1,0 +1,4 @@
+transform the items emitted by an Observable by applying a function to each of them
+
+我的理解
+通过这个函数方法变换Observable发射的每个元素为另外的目标元素
