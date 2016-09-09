@@ -1,4 +1,0 @@
-transform the items emitted by an Observable into Observables (or Iterables), then flatten this into a single Observable
-
-我的理解：
-把Observables或Iterables里发射的每个Observable变换为另一个Observable ，然后把新生产的Observable『铺平』成目标元素，并通过统一的路径发射
