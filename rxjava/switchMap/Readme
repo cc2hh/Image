@@ -1,0 +1,4 @@
+transform the items emitted by an Observable into Observables, and mirror those items emitted by the most-recently transformed Observable
+
+自我理解
+switchMap和flatMap类似，不同点：每当发射一个新的Obserable时，取消订阅并停止监听之前的Observable所发射的目标元素
