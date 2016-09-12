@@ -1,0 +1,4 @@
+apply a function to each item emitted by an Observable, sequentially, and emit each successive value
+
+我的理解
+使每个被发射的Observable作为一个函数的参数，并把函数结果作为下次函数的参数，类似于累加器的效果
