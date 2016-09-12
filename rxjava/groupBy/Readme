@@ -1,0 +1,4 @@
+divide an Observable into a set of Observables that emit groups of items from the original Observable, organized by key
+
+我的理解
+把源Observable按照key规则来封装成一些小的Observable，然后分别发射所包含的数据，类似SQL中的groupBy
