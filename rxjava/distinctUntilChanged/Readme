@@ -1,0 +1,4 @@
+suppress duplicate consecutive items emitted by the source Observable
+
+我的理解
+同distinct一样，不过只是当前数据跟前一个数据相比，如果是重复数据，就过滤掉
