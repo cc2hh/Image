@@ -1,0 +1,4 @@
+only emit the last n items emitted by an Observable
+
+我的理解
+只发射最后一个到最后第n个元素，n为规定的数字
