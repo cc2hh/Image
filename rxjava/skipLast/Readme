@@ -1,0 +1,4 @@
+gnore the last n items emitted by an Observable
+
+我的理解
+忽略Observable发射的最后n项数据
