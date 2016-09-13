@@ -1,0 +1,4 @@
+emits the items from the source Observable until a second Observable emits an item or issues a notification
+
+我的理解
+从源Observable发射数据，直到第二个Observable发射了一个数据或者发射了一个终止通知
