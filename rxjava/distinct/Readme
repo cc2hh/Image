@@ -1,0 +1,4 @@
+suppress duplicate items emitted by the source Observable
+
+我的理解
+抑制重复的数据发射，即重复数据只会发射一次
