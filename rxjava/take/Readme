@@ -1,0 +1,4 @@
+emit only the first n items emitted by an Observable
+
+我的理解
+只发射第一个到第n个元素，n为规定的数字
