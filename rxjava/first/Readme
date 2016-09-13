@@ -1,0 +1,4 @@
+emit only the first item emitted by an Observable, or the first item that meets some condition
+
+我的理解
+只发射Observable的第一个数据或者是第一个符合规定条件的数据
