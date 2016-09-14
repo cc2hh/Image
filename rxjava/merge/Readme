@@ -1,0 +1,4 @@
+combine multiple Observables into one
+
+我的理解
+组合多个Observable为一个，组合过程中，原来的发射数据会无序
