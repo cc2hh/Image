@@ -1,0 +1,4 @@
+convert an Observable that emits Observables into a single Observable that emits the items emitted by the most-recently emitted of those Observables
+
+我的理解
+发射Observable的数据是Observable，并且当发射新的数据Observable时，前一个的数据Observable发射的数据会停止发射
