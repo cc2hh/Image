@@ -1,0 +1,4 @@
+emit a specified sequence of items before beginning to emit the items from the Observable
+
+我的理解
+在发射源Observable的数据前先发射一些数据
