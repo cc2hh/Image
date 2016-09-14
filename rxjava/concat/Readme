@@ -1,0 +1,4 @@
+concatenate two or more Observables sequentially
+
+我的理解
+组合多个Observable为一个，组合过程中，严格按照原来数据的发射顺序
