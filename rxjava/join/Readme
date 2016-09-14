@@ -1,1 +1,26 @@
 combine the items emitted by two Observables whenever one item from one Observable falls within a window of duration specified by an item emitted by the other Observable
+
+
+效果类似排列组合，把第一个数据源A作为基座窗口，他根据自己的节奏不断发射数据元素，第二个数据源B，每发射一个数据，我们都把它和第一个数据源A中已经发射的数据进行一对一匹配
+
+示意代码
+Left Sequence
+L 0-1-2-3-4-5--
+
+Right Sequence
+R --A----B--C--
+
+0, A
+1, A
+
+0, B
+1, B
+2, B
+3, B
+
+0, C
+1, C
+2, C
+3, C
+4, C
+5, C
