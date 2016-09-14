@@ -1,0 +1,4 @@
+when an item is emitted by either of two Observables, combine the latest item emitted by each Observable via a specified function and emit items based on the results of this function
+
+我的理解
+当发射2个Observable中任何一个数据时，把该数据同最近一次Observable的数据通过一个函数组合成发射目标数据
