@@ -1,4 +1,4 @@
-only emit an item from the source Observable after a particular timespan has passed without the Observable emitting any other items
+only emit an item from an Observable if a particular timespan has passed without it emitting another item
 
 我的理解
-在设置的时间间隔内只发射源Observable的最近一个数据
+从最近发射数据的时间起在设置的时间间隔内没有再发射过数据，就发射这个最近发射的数据
